@@ -1,0 +1,44 @@
+All Frontend Requirements:
+
+1==========Components========
+fonts
+icons/other svg
+library
+free-css(template)
+
+2==========Tools============
+lighthouse
+W3c Validator
+code minifier
+webpack
+
+
+
+3===========Google Products=======
+firebase
+google drive/dropbox
+google analytics
+google forms
+google charts
+google tag manager
+
+
+4=============All Stufs=============
+fluid layout script
+javascript live design script
+Email Send
+payment gateway
+push notification
+api connect
+form validation
+google map api
+chart 
+animation
+carousel
+loadingbar
+google authentication
+filter
+search
+
+
+

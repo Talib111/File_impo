@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>chart demo checking</title>
+	<script src="chart.js"></script>
+</head>
+<body>
+	
+
+
+<div style="width: 300px;">
+	<canvas id="chart1"></canvas>
+</div>
+
+<script>
+	
+
+	var ctx = document.getElementById('chart1').getContext('2d');
+	var mnt = ['aug','sep','oct','nov'];
+	var val = [30,12,15,20];
+	var cha = new Chart(ctx,{
+		type: 'bar',
+		data: {
+			labels: mnt,
+			datasets: [{
+				label: 'hello mr talib',
+				backgroundColor: 'orange',
+				borderColor: 'green',
+				barThickness: 30,
+				data: val,
+			}]
+		},
+		options: {
+			scales: {
+				yAxes: [{
+					ticks: {
+						min: 0,
+						max: 100,
+						stepSize: 20
+					}
+				}]
+			}
+		}
+	});
+</script>
+
+
+
+
+
+
+</body>
+</html>

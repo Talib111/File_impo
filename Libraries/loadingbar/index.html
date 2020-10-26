@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>loadingbar</title>
+	<link rel="stylesheet" type="text/css" href="loading-bar.css"/>
+<script type="text/javascript" src="loading-bar.js"></script>
+
+
+</head>
+<body>
+<div style="display: flex;width: 100vw;height: 600px;">
+  <div id="myItem1" data-preset="bubble" style="height: 200px;background-color: lightblue;flex: 1"></div>
+  <div id="myItem2" data-preset="circle" style="height: 200px;flex: 1" ></div>
+  <div id="myItem3" data-preset="line" style="height: 200px;background-color: lightblue;flex: 1"></div>
+  <div id="myItem4" data-preset="rainbow" style="height: 200px;flex: 1" ></div>
+  <div id="myItem5" data-preset="energy" style="height: 200px;background-color: lightblue;flex: 1"></div>
+  <div id="myItem6" data-preset="stripe" style="height: 200px;flex: 1" ></div>
+   <div id="myItem7" data-preset="text" style="height: 200px;flex: 1" ></div>
+  </div>
+  
+
+
+<script>
+ 
+  var bar1 = new ldBar("#myItem1");
+  
+  var bar2 = document.getElementById('myItem1').ldBar;
+  bar1.set(80);
+
+   var bar10 = new ldBar("#myItem2");
+  var bar10 = document.getElementById('myItem2').ldBar;
+  bar10.set(50);
+
+  var bar11 = new ldBar("#myItem3");
+  var bar11 = document.getElementById('myItem3').ldBar;
+  bar11.set(50);
+
+  var bar12 = new ldBar("#myItem4");
+  var bar12 = document.getElementById('myItem4').ldBar;
+  bar12.set(50);
+
+  var bar13 = new ldBar("#myItem5");
+  var bar13 = document.getElementById('myItem5').ldBar;
+  bar13.set(50);
+
+  var bar14 = new ldBar("#myItem6");
+  var bar14 = document.getElementById('myItem6').ldBar;
+  bar14.set(50);
+
+  var bar15 = new ldBar("#myItem7");
+  var bar15 = document.getElementById('myItem7').ldBar;
+  bar15.set(50);
+</script>
+	
+</body>
+</html>

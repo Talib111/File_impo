@@ -1,0 +1,1782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="author" content="Talib Hussain">
+	<meta name="description" content="Freelancer Website developer $ UI/UX designer">
+	<meta name="keywords" content="Freelancer, Website developer, UI designer, Freelancer Website developer">
+	<title>Freelancer Website developer $ UI/UX designer</title>
+	<link rel="stylesheet" href="media/animate.css">
+	<style>
+		
+		body{
+			padding: 0;
+			margin: 0;
+			background-color: white;
+			display: none;
+		}
+		@font-face{
+			font-family: borg9;
+			src: url(fonts/borg9.ttf);/**workded*/
+		}
+		@font-face{
+			font-family: Arial;
+			src: url(fonts/arial_reg.ttf);/** worded*/
+		}
+		@font-face{
+			font-family: Arial Bold;/** worked*/
+			src: url(fonts/arial_bold.ttf);
+		}
+		@font-face{
+			font-family: Segoe UI;/**worked**/
+			src: url(fonts/segoe_reg.ttf);
+		}
+		
+		@font-face{
+			font-family: Segoe UI Semibold;
+			src: url(fonts/segoe_semibold.ttf);/**worked**/
+		}
+
+
+		@media (min-width: 700px) and (max-width: 1920px)
+		{
+			body{
+				display: block;
+			}
+
+			.head1{
+			position: relative;
+			width: 100vw;
+			height: 58.73242187500001vw;
+			top: 0;
+		}
+
+		.tri_big{
+			width: 100vw;
+		}
+		.tri_small{
+			display: none;
+		}
+		.contact_me{
+			position: absolute;
+			width: 7.161458333333334vw;
+			height: 1.8880208333333335vw;
+			left: 78.58072916666667vw;
+			top: 0.9114583333333334vw;
+			border: 0.11765625vw solid white;
+			border-radius: 1.3020833333333335vw;
+			color: white;
+			cursor: pointer;
+			transition: 0.8s;
+		}
+
+		.contact_me:hover{
+			background-color: white;
+			color: black;
+			transform: rotate(90deg);
+		}
+		
+		.contact_me p{
+			position: absolute;
+			font-size: 0.78125vw;
+			font-family: Segoe UI;
+			left: 1.6276041666666667vw;
+			top: -0.390625vw;
+		}
+
+		.heading_big{
+			position: absolute;
+			top: 9.765625vw;
+			width: 100%;
+			text-align: center;
+			font-size: 3.125vw;
+			color: white;
+			line-height: 2.2786458333333335vw;
+			font-family: Arial Bold;
+		}
+		.heading_small{
+			display: none;
+		}
+
+		.sub_big{
+			position: absolute;
+			top: 14.973958333333334vw;
+			width: 100%;
+			text-align: center;
+			font-size: 1.5625vw;
+			color: white;
+			line-height: 1.4322916666666667vw;
+			font-family: Arial;
+			opacity: 0.79;
+		}
+		.sub_small{
+			display: none;
+		}
+
+		.talib_img_big{
+			position: absolute;
+			top: 15.950520833333334vw;
+			left: 43.489583333333336vw;
+			width: 19.7265625vw;
+		}
+		.talib_img_small{
+			display: none;
+		}
+
+		.name{
+			position: absolute;
+			top: 34.505208333333336vw;
+			left: 43.51510416666667vw;
+			font-size: 1.818229166666667vw;
+			color: black;
+			font-family: Borg9;
+		}
+
+		.ill2{
+			position: relative;
+			height: 28.707031250000004vw;
+			top: -6.510416666666667vw;
+		}
+
+		.res_txt{
+			position: relative;
+			font-size: 1.5625vw;
+		    top: 1.9531250000000002vw;
+			font-family: Segoe UI Semibold;
+			text-align: center;
+			width: 100%;
+			text-align: center;
+		}
+
+		.ill_img{
+			position: relative;
+			width: 42.358723958333336vw;
+			left: 30.736979166666668vw;
+			top: 3.9062500000000004vw;
+
+		}
+
+		.intro3{
+            position: relative;
+            width: 100vw;
+            height: 53.12500000000001vw;
+            background-color: #7510F7;
+		}
+
+		.intro_tag{
+			position: absolute;
+			top: 2.604166666666667vw;
+			width: 100%;
+			text-align: center;
+			color: white;
+			font-size: 2.604166666666667vw;
+			font-family: Segoe UI Semibold;
+			line-height: 2.408854166666667vw;
+			text-align: center;
+		}
+		.intro_text_big{
+            position: absolute;
+            width: 100%;
+			top: 9.114583333333334vw;
+			text-align: center;
+			color: white;
+			font-size: 1.4322916666666667vw;
+			font-family: Segoe UI;
+			font-weight: -200;
+			text-align: center;
+			opacity: 0.80;
+		}
+		.intro_text_small{
+			display: none;
+		}
+		.fast_img{
+			display: none;
+		}
+
+		.skill4{
+            position: relative;
+            width: 80.14322916666667vw;
+            height: 49.86979166666667vw;
+            left: 9.700520833333334vw;
+            top: -19.53125vw;
+            background-color: white;
+            border-radius: 1.3020833333333335vw;
+            box-shadow: -0.13020833333333334vw 0.390625vw 0.390625vw black;
+            border: 0.032552083333333336vw solid grey;
+
+		}
+		.developer_group{
+			position: absolute;
+			left: 3.2552083333333335vw;
+			width: 40.0390625vw;
+			height: 49.86979166666667vw;
+			text-align: center;
+		}
+		.designer_group{
+			position: absolute;
+			left: 36.458333333333336vw;
+			width: 40.0390625vw;
+			height: 49.86979166666667vw;
+			text-align: center;
+		}
+		.div_line{
+			position: absolute;
+			height: 49.86979166666667vw;
+			background-color: grey;
+			width: 0.032552083333333336vw;
+			left: 40.0390625vw;
+
+		}
+		.dev_img{
+			position: absolute;
+			width: 5.024739583333334vw;
+			top: 2.604166666666667vw;
+			left: 17.903645833333336vw;
+		}
+		.dev_tag{
+			position: absolute;
+			color: black;
+			font-size: 1.8229166666666667vw;
+			font-family: Segoe UI Semibold;
+			top: 4.557291666666667vw;
+			left:0;
+			width: 100%;
+			text-align: center;
+		}
+		.dev_text{
+			
+			position: absolute;
+			color: black;
+			font-size: 1.3020833333333335vw;
+			font-family: Segoe UI;
+			top: 8.138020833333334vw;
+			left: 0;
+			width: 100%;
+			text-align: center;
+			opacity: 0.8;
+            line-height: 1.6276041666666667vw;
+		}
+		.lang_speak_tag{
+            position: absolute;
+			color: #7510F7;
+			font-size: 1.2369791666666667vw;
+			font-family: Arial;
+			top: 16.276041666666668vw;
+			left: 0;
+			width: 100%;
+			text-align: center;
+		}
+		.lang_speak_text{
+            position: absolute;
+			color: black;
+			font-size: 1.171875vw;
+			font-family: Segoe UI;
+			top: 18.880208333333336vw;
+			left: 0;
+			width: 100%;
+			text-align: center;
+			opacity: 0.9;
+		}
+        .service_tag{
+            position: absolute;
+			color: #7510F7;
+			font-size: 1.2369791666666667vw;
+			font-family: Arial;
+			top: 28.645833333333336vw;
+			left: 0;
+			width: 100%;
+			text-align: center;
+        }
+        .service_text{
+            position: absolute;
+			color: black;
+			font-size: 1.171875vw;
+			font-family: Segoe UI;
+			top: 31.250000000000004vw;
+			left: 0vw;
+			width: 100%;
+			text-align: center;
+			opacity: 0.9;
+        }
+		.projects5{
+            position: relative;
+            width: 100vw;
+            height: 45.18229166666667vw; 
+            top: -11.067708333333334vw;
+
+		}
+		
+		.pro_tag{
+			position: absolute;
+			width: 100%;
+			text-align: center;
+			font-size: 1.9531250000000002vw;
+			color: black;
+			font-family: Arial Bold;
+			top: 0vw;
+			z-index: 1;
+		}
+		.pro_text{
+			position: absolute;
+			width: 100%;
+			text-align: center;
+			font-size: 1.2369791666666667vw;
+			font-family: Segoe UI;
+			color: black;
+			top: 3.9062500000000004vw;
+		}
+		.box1{
+			position: absolute;
+			width: 26.041666666666668vw;
+			height: 16.927083333333336vw;
+			left: 9.309895833333334vw;
+			top: 13.020833333333334vw;
+			background-color: blue;
+			border-radius: 0.6510416666666667vw;
+			
+		}
+
+		.box2{
+			position: absolute;
+			width: 26.041666666666668vw;
+			height: 16.927083333333336vw;
+			left: 36.966145833333336vw;
+			top: 13.020833333333334vw;
+			background-color: blue;
+			border-radius: 0.6510416666666667vw;
+		}
+		.box3{
+			position: absolute;
+			width: 26.041666666666668vw;
+			height: 16.927083333333336vw;
+			left: 64.6484375vw;
+			top: 13.020833333333334vw;
+			background-color: blue;
+			border-radius: 0.6510416666666667vw;
+		}
+		.box4{
+			position: absolute;
+			width: 26.041666666666668vw;
+			height: 16.927083333333336vw;
+			left: 9.309895833333334vw;
+			top: 31.250000000000004vw;
+			background-color: blue;
+			border-radius: 0.6510416666666667vw;
+		}
+		.box5{
+			position: absolute;
+			width: 26.041666666666668vw;
+			height: 16.927083333333336vw;
+			left: 36.966145833333336vw;
+			top: 31.250000000000004vw;
+			background-color: blue;
+			border-radius: 0.6510416666666667vw;
+		}
+		.box6{
+			position: absolute;
+			width: 26.041666666666668vw;
+			height: 16.927083333333336vw;
+			left: 64.6484375vw;
+			top: 31.250000000000004vw;
+			background-color: blue;
+			border-radius: 0.6510416666666667vw;
+		}
+		.back_img1,.back_img2,.back_img3,.back_img4,.back_img5,.back_img6{
+			position: absolute;
+			width: 26.041666666666668vw;
+			height: 16.927083333333336vw;
+			background-color: #141C3A;
+			border-radius: 0.6510416666666667vw;
+			z-index: 1;
+			transition: 0.8s;
+
+		}
+		
+		
+
+		.back_img1{
+			left: 9.309895833333334vw;
+			top: 13.020833333333334vw;
+		}
+		.back_img2{
+			left: 36.966145833333336vw;
+			top: 13.020833333333334vw;
+		}
+		.back_img3{
+			left: 64.6484375vw;
+			top: 13.020833333333334vw;
+		}
+		.back_img4{
+			left: 9.309895833333334vw;
+			top: 31.250000000000004vw;
+		}
+		.back_img5{
+			left: 36.966145833333336vw;
+			top: 31.250000000000004vw;
+		}
+		.back_img6{
+			left: 64.6484375vw;
+			top: 31.250000000000004vw;
+		}
+		.cover_1{
+			position: absolute;
+			width: 26.041666666666668vw;
+			height: 16.927083333333336vw;
+			left: 9.309895833333334vw;
+			top: 13.020833333333334vw;
+			background-color: #141C3A;
+			border-radius: 0.6510416666666667vw;
+			z-index: 1;
+			opacity: 0.90;
+			cursor: pointer;
+			transition: 0.8s;
+		}
+		.cover_1:hover,.cover_2:hover,.cover_3:hover,.cover_4:hover,.cover_5:hover,.cover_6:hover{
+			opacity: 0;
+			transform: translateX(26vw);
+		}
+		
+		.cover_2{
+			position: absolute;
+			width: 26.041666666666668vw;
+			height: 16.927083333333336vw;
+			left: 36.966145833333336vw;
+			top: 13.020833333333334vw;
+			background-color: #00AFDE;
+			border-radius: 0.6510416666666667vw;
+			z-index: 1;
+			opacity: 0.90;
+			cursor: pointer;
+			transition: 0.8s;
+		}
+		.cover_3{
+			position: absolute;
+			width: 26.041666666666668vw;
+			height: 16.927083333333336vw;
+			left: 64.6484375vw;
+			top: 13.020833333333334vw;
+			background-color: #0060DE;
+			border-radius: 0.6510416666666667vw;
+			z-index: 1;
+			opacity: 0.90;
+			cursor: pointer;
+			transition: 0.8s;
+		}
+		.cover_4{
+			position: absolute;
+			width: 26.041666666666668vw;
+			height: 16.927083333333336vw;
+			left: 9.309895833333334vw;
+			top: 31.250000000000004vw;
+			background-color: #2F063B;
+			border-radius: 0.6510416666666667vw;
+			z-index: 1;
+			opacity: 0.90;
+			cursor: pointer;
+			transition: 0.8s;
+		}
+		.cover_5{
+			position: absolute;
+			width: 26.041666666666668vw;
+			height: 16.927083333333336vw;
+			left: 36.966145833333336vw;
+			top: 31.250000000000004vw;
+			background-color: #4F0B14;
+			border-radius: 0.6510416666666667vw;
+			z-index: 1;
+			opacity: 0.90;
+			cursor: pointer;
+			transition: 0.8s;
+		}
+		.cover_6{
+			position: absolute;
+			width: 26.041666666666668vw;
+			height: 16.927083333333336vw;
+			left: 64.6484375vw;
+			top: 31.250000000000004vw;
+			background-color: #1E2A3A;
+			border-radius: 0.6510416666666667vw;
+			z-index: 1;
+			opacity: 0.90;
+			cursor: pointer;
+			transition: 0.8s;
+
+		}
+
+		#see_more{
+			height: 5vw;
+		}
+
+		
+		.box_tag{
+			position: absolute;
+			color: white;
+			font-size: 1.6276041666666667vw;
+			top: 3.580729166666667vw;
+			width: 100%;
+			text-align: center;
+			font-family: Segoe UI Semibold;
+			z-index: 1;
+
+		}
+		.button{
+			position: absolute;
+			width: 6.770833333333334vw;
+			height: 1.6927083333333335vw;
+			top: 9.765625vw;
+			left: 9.440104166666668vw;
+			border-radius: 1.9531250000000002vw;
+			border: 0.13020833333333334vw solid white;
+			z-index: 1;
+			color: white;
+			cursor: pointer;
+
+		}
+		.button:hover{
+			background-color: white;
+			color: black;
+		}
+		.click_know{
+			position: absolute;
+            font-family: Arial;
+            left: 0.9765625000000001vw;
+            top: -0.32552083333333337vw;
+			font-size: 0.78125vw;
+		}
+		.arrow_img{
+			position: absolute;
+			width: 0.5208333333333334vw;
+			left: 5.208333333333334vw;
+			top: 0.7161458333333334vw;
+		}
+
+		.footer{
+            position: relative;
+            width: 100vw;
+            height: 43.9453125vw;
+            background-color: #7510F7;
+            margin-top: 19.53125vw;
+		}
+		.start_project{
+			position: absolute;
+			top: -5.859375vw;
+			left: 12.109375vw;
+			background-color: #0E1530;
+			width: 75.78125vw;
+			height: 11.848958333333334vw;
+			border-radius: 1.6276041666666667vw;
+		}
+		.start_project_tag{
+			position: absolute;
+			color: white;
+			font-size: 1.9531250000000002vw;
+			font-family: Arial Bold;
+			top: 3.2552083333333335vw;
+			left: 4.8828125vw;
+		}
+		.start_project_text{
+			position: absolute;
+			color: white;
+			font-size: 1.3020833333333335vw;
+			font-family: Segoe UI;
+			top: 3.2552083333333335vw;
+			left: 29.296875000000004vw;
+			text-align: center;
+		}
+		.button2{
+			position: absolute;
+			width: 9.765625vw;
+			height: 2.604166666666667vw;
+			left: 59.24479166666667vw;
+			top: 4.8828125vw;
+			border: 0.13020833333333334vw solid white;
+			border-radius: 1.6276041666666667vw;
+			color: white;
+			cursor: pointer;
+		}
+		.button2:hover{
+			background-color: white;
+			color: black;			
+		}
+		.let{
+			position: absolute;
+			font-size: 1.3020833333333335vw;
+			font-family: Segoe UI;
+			top: -0.9114583333333334vw;
+			left: 1.4973958333333335vw;
+		}
+		.i_en{
+			position: absolute;
+			color: white;
+			font-size: 1.6276041666666667vw;
+			font-family: Segoe UI;
+			opacity: 0.8;
+			width: 100%;
+			text-align: center;
+			top: 13.020833333333334vw;
+		}
+		
+        .round1{
+        	left: 36.263020833333336vw;
+        }
+        .round2{
+        	left: 41.08072916666667vw;
+        }
+        .round3{
+        	left: 45.8984375vw;
+        }
+
+        .round4{
+        	left: 50.716145833333336vw;
+        }
+        .round5{
+        	left: 55.53385416666667vw;
+        }
+        .round6{
+        	left: 60.35156250000001vw;
+        }
+
+         .round1,.round2,.round3,.round4,.round5,.round6{
+         	position: absolute;
+        	width: 3.2552083333333335vw;
+        	height: 3.2552083333333335vw;
+        	top: 26.041666666666668vw;
+        	border: 0.06510416666666667vw solid white;
+        	border-radius: 50%;
+        	cursor: pointer;
+
+        }
+
+         .round1:hover,.round2:hover,.round3:hover,.round4:hover,.round5:hover,.round6:hover{
+        	background-color: black;
+        }
+       
+        .social_img{
+        	position: absolute;
+        	width: 0.8vw;
+        	left: 1.2369791666666667vw;
+        	top: 0.9114583333333334vw;
+        }
+        .round2 img,.round3 img, .round4 img, .round5 img , .round6 img{
+        	width: 1.3vw;
+        	left: 1vw;
+        }
+
+        .num{
+           position: absolute;
+           font-family: Arial;
+           font-size: 0.9765625000000001vw;
+           opacity: 0.95;
+           top: 32.552083333333336vw;
+           left: 36.9140625vw; 
+           color: white;
+        }
+        .mail{
+           position: absolute;
+           font-family: Arial;
+           font-size: 0.9765625000000001vw;
+           opacity: 0.95;
+           top: 32.552083333333336vw;
+           left: 52.14843750000001vw;
+           color: white;
+        }
+       
+        .copyright{
+        	 position: absolute;
+           font-family: Arial;
+           font-size: 0.9765625000000001vw;
+           opacity: 0.70;
+           top: 36.458333333333336vw;
+           left: 43.22916666666667vw;
+           color: white;
+        }
+
+
+        .form11{
+        	height: 0;margin-bottom: 19.53125vw;position: absolute;top:0;overflow-x: hidden;transition: 0.5s;width: 100vw;text-align: center;background-image: linear-gradient(90deg,red,black);
+        }
+       .form11_div{
+          position: absolute;top: 3.2552083333333335vw;width: 100vw;text-align: center;height: 100%;
+       }
+       .close_form_btn{
+       	color: red;font-size: 1.171875vw;position: absolute;left: 87.890625vw;top: 0.6510416666666667vw;font-family: Segoe UI Semibold;background-color: white;border-radius: 50%;height:1.4973958333333335vw;width: 1.4973958333333335vw;box-shadow: -0.1953125vw 0.1953125vw 0.1953125vw black;cursor: pointer;
+       }
+       #hd_i_en{
+           top: 8vw;
+		}
+
+		 #hd_num,#hd_mail{
+        	top: 15vw;
+        }
+         #hd_round1,#hd_round2,#hd_round3,#hd_round4,#hd_round5,#hd_round6{
+         	
+        	top: 5.041666666666668vw;
+        	
+
+        }
+
+        #gmail1{
+        	color: white;width: 13.020833333333334vw;height: 1.3020833333333335vw;position: relative;left: 56.64062500000001vw;top: -20.182291666666668vw;text-align: center;background-color: #0E1530;transition: 1s;box-shadow: -0.13020833333333334vw 0.13020833333333334vw 0.13020833333333334vw white;display: none;
+        }
+        #what1{
+             color: white;width: 13.020833333333334vw;height: 1.3020833333333335vw;position: relative;left: 42.317708333333336vw;top: -20.182291666666668vw;text-align: center;background-color: #0E1530;transition: 1s;box-shadow: -0.13020833333333334vw 0.13020833333333334vw 0.13020833333333334vw white;display: none;
+        }
+        #gmail2{
+        	color: white;width: 13.020833333333334vw;height: 1.3020833333333335vw;position: absolute;left: 56.64062500000001vw;top: 3.2552083333333335vw;text-align: center;background-color: #0E1530;transition: 1s;box-shadow: -0.13020833333333334vw 0.13020833333333334vw 0.13020833333333334vw white;display: none;z-index: 1;
+        }
+        #what2{
+           color: white;width: 13.020833333333334vw;height: 1.3020833333333335vw;position:absolute;left: 42.317708333333336vw;top: 3.2552083333333335vw;text-align: center;background-color: #0E1530;transition: 1s;box-shadow: -0.13020833333333334vw 0.13020833333333334vw 0.13020833333333334vw white;display: none;z-index: 1;
+        }
+
+		}
+
+
+		/*small viwew-----*/ 
+
+		@media (min-width: 0px) and (max-width: 699px)
+		{
+			body{
+				display: block;
+			}
+			.head1{
+			position: relative;
+			width: 100vw;
+			height: 159.365vw;
+			top: 0;
+		}
+
+		.tri_big{
+			display: none;
+		}
+		.tri_small{
+			position: absolute;
+			width: 100vw;
+		}
+		.contact_me{
+			position: absolute;
+			width: 20vw;
+			height: 5vw;
+			left: 63.75vw;
+			top: 3.5vw;
+			border: 0.375vw solid white;
+			border-radius: 5vw;
+			color: white;
+			cursor: pointer;
+		}
+		.contact_me:hover{
+			background-color: white;
+			color: black;
+		}
+		.contact_me p{
+			position: absolute;
+			font-size: 2.5vw;
+			font-family: Segoe UI;
+			left: 4vw;
+			top: -1.5vw;
+		}
+
+		.heading_small{
+			position: absolute;
+			top: 22.5vw;
+			width: 100%;
+			text-align: center;
+			font-size: 6.75vw;
+			color: white;
+			line-height: 6.25vw;
+			font-family: Arial Bold;
+		}
+		.heading_big{
+			display: none;
+		}
+
+		.sub_small{
+			position: absolute;
+			top: 50vw;
+			width: 100%;
+			text-align: center;
+			font-size: 4vw;
+			color: white;
+			line-height: 5.5vw;
+			font-family: Arial;
+			opacity: 0.79;
+		}
+		.sub_big{
+			display: none;
+		}
+
+		.talib_img_small{
+			position: absolute;
+			top: 63.75vw;
+			left: 45vw;
+			height: 95.5vw;
+		}
+		.talib_img_big{
+			display: none;
+		}
+
+		.name{
+			position: absolute;
+			top: 139.5vw;
+			left: 52vw;
+			font-size: 4.5vw;
+			color: black;
+			font-family: borg9;
+		}
+
+		.ill2{
+			position: relative;
+			height: 66.25vw;
+			width: 100vw;
+		}
+
+		.res_txt{
+			position: relative;
+			font-size:17;
+		    top: 21.25vw;
+			font-family: Segoe UI Semibold;
+			text-align: center;
+			width: 100%;
+			text-align: center;
+		}
+
+		.ill_img{
+			position: relative;
+			width: 86.5vw;
+			left: 5vw;
+			top: 25vw;
+
+		}
+
+		.intro3{
+            position: relative;
+            width: 100vw;
+            height: 264.75vw;
+            background-color: #7510F7;
+            margin-top: 25vw;
+		}
+
+		.intro_tag{
+			position: absolute;
+			top: 10vw;
+			width: 100%;
+			text-align: center;
+			color: white;
+			font-size: 6.25vw;
+			font-family: Segoe UI Semibold;
+			line-height: 9.25vw;
+			text-align: center;
+		}
+		.intro_text_small{
+            position: absolute;
+            width: 100%;
+			top: 26.25vw;
+			text-align: center;
+			color: white;
+			font-size: 4.5vw;
+			font-family: Segoe UI;
+			text-align: center;
+			opacity: 0.80;
+		}
+		.intro_text_big{
+			display: none;
+		}
+		.fast_img{
+			position: absolute;
+			left: 10.75vw;
+			top: 125vw;
+			width: 78.5vw;
+
+		}
+
+		.skill4{
+            position: relative;
+            width: 87.5vw;
+            height: 270.5vw;
+            left: 5vw;
+            top: -50vw;
+            background-color: white;
+            border-radius: 5vw;
+            box-shadow: -0.5vw 1.5vw 1.5vw black;
+            border: 0.125vw solid grey;
+
+		}
+		.developer_group{
+			position: absolute;
+			left: 0;
+			width: 87.5vw;
+			height: 117vw;
+			text-align: center;
+		}
+		.designer_group{
+			position: absolute;
+			left: 0;
+			width: 87.5vw;
+			height: 117vw;
+			text-align: center;
+			top: 145vw;
+		}
+		.div_line{
+			position: absolute;
+			height: 0.125vw;
+			background-color: grey;
+			width: 90.25vw;
+			top: 135vw;
+
+		}
+		.dev_img{
+			position: absolute;
+			width: 14.75vw;
+			top: 10vw;
+			left: 37.5vw;
+		}
+		.dev_tag{
+			position: absolute;
+			color: black;
+			font-size: 5.25vw;
+			font-family: Segoe UI Semibold;
+			top: 15vw;
+			left:0;
+			width: 100%;
+			text-align: center;
+		}
+		.dev_text{
+			
+			position: absolute;
+			color: black;
+			font-size: 4vw;
+			font-family: Segoe UI;
+			top: 25vw;
+			left: 0;
+			width: 100%;
+			text-align: center;
+			opacity: 0.8;
+			line-height: 5vw;
+		}
+		.lang_speak_tag{
+            position: absolute;
+			color: #7510F7;
+			font-size: 4vw;
+			font-family: Arial;
+			top: 50vw;
+			left: 0;
+			width: 100%;
+			text-align: center;
+		}
+		.lang_speak_text{
+            position: absolute;
+			color: black;
+			font-size: 3.5vw;
+			font-family: Segoe UI;
+			top: 57.5vw;
+			left: 0;
+			width: 100%;
+			text-align: center;
+			opacity: 0.9;
+		}
+        .service_tag{
+            position: absolute;
+			color: #7510F7;
+			font-size: 4vw;
+			font-family: Arial;
+			top: 82.5vw;
+			left: 0;
+			width: 100%;
+			text-align: center;
+        }
+        .service_text{
+            position: absolute;
+			color: black;
+			font-size: 3.5vw;
+			font-family: Segoe UI;
+			top: 87.5vw;
+			left: 0;
+			width: 100%;
+			text-align: center;
+			opacity: 0.9;
+        }
+		.projects5{
+            position: relative;
+            width: 100vw;
+            height: 418.5vw; 
+            top: -42.5vw;
+
+		}
+		.pro_tag{
+			position: absolute;
+			width: 100%;
+			text-align: center;
+			font-size: 4.5vw;
+			color: black;
+			font-family: Arial Bold;
+			top: 17.5vw;
+			z-index: 1;
+		}
+		.pro_text{
+			position: absolute;
+			width: 100%;
+			text-align: center;
+			font-size: 4vw;
+			font-family: Segoe UI;
+			color: black;
+			top: 25vw;
+		}
+		.box1{
+			position: absolute;
+			width: 90.25vw;
+			height: 60.75vw;
+			left: 5.5vw;
+			top: 50vw;
+			background-color: blue;
+			border-radius: 2.5vw;
+		}
+		.box2{
+			position: absolute;
+			width: 90.25vw;
+			height: 60.75vw;
+			left: 5.5vw;
+			top: 117.5vw;
+			background-color: blue;
+			border-radius: 2.5vw;
+		}
+		.box3{
+			position: absolute;
+			width: 90.25vw;
+			height: 60.75vw;
+			left: 5.5vw;
+			top: 185vw;
+			background-color: blue;
+			border-radius: 2.5vw;
+		}
+		.box4{
+			position: absolute;
+			width: 90.25vw;
+			height: 60.75vw;
+			left: 5.5vw;
+			top: 252.5vw;
+			background-color: blue;
+			border-radius: 2.5vw;
+		}
+		.box5{
+			position: absolute;
+			width: 90.25vw;
+			height: 60.75vw;
+			left: 5.5vw;
+			top: 320vw;
+			background-color: blue;
+			border-radius: 2.5vw;
+		}
+		.box6{
+			position: absolute;
+			width: 90.25vw;
+			height: 60.75vw;
+			left: 5.5vw;
+			top: 387.5vw;
+			background-color: blue;
+			border-radius: 2.5vw;
+		}
+		
+		.back_img1,.back_img2,.back_img3,.back_img4,.back_img5,.back_img6{
+			position: absolute;
+			width: 90.25vw;
+			height: 60.75vw;
+			background-color: #141C3A;
+			border-radius: 2.5vw;
+			z-index: 1;
+		}
+		.back_img1{
+			left: 5.5vw;
+			top: 50vw;
+		}
+		.back_img2{
+			left: 5.5vw;x;
+			top: 117.5vw;
+		}
+		.back_img3{
+			left: 5.5vw;
+			top: 185vw;
+		}
+		.back_img4{
+			left: 5.5vw;
+			top: 252.5vw;
+		}
+		.back_img5{
+			left: 5.5vw;x;
+			top: 320vw;
+		}
+		.back_img6{
+			left: 5.5vw;
+			top: 387.5vw;
+		}
+		.cover_1:hover,.cover_2:hover,.cover_3:hover,.cover_4:hover,.cover_5:hover,.cover_6:hover{
+			opacity: 0;
+			transform: translateY(70vw);
+		}
+		.cover_1{
+			position: absolute;
+			width: 90.25vw;
+			height: 60.75vw;
+			left: 5.5vw;
+			top: 50vw;
+			background-color: #141C3A;
+			border-radius: 2.5vw;
+			z-index: 1;
+			opacity: 0.90;
+			cursor: pointer;
+			transition: 0.8s;
+		}
+		.cover_2{
+			position: absolute;
+			width: 90.25vw;
+			height: 60.75vw;
+			left: 5.5vw;x;
+			top: 117.5vw;
+			background-color: #00AFDE;
+			border-radius: 2.5vw;
+			z-index: 1;
+			opacity: 0.90;
+			cursor: pointer;
+			transition: 0.8s;
+		}
+		.cover_3{
+			position: absolute;
+			width: 90.25vw;
+			height: 60.75vw;
+			left: 5.5vw;
+			top: 185vw;
+			background-color: #0060DE;
+			border-radius: 2.5vw;
+			z-index: 1;
+			opacity: 0.90;
+			cursor: pointer;
+			transition: 0.8s;
+		}
+		.cover_4{
+			position: absolute;
+			width: 90.25vw;
+			height: 60.75vw;
+			left: 5.5vw;
+			top: 252.5vw;
+			background-color: #2F063B;
+			border-radius: 2.5vw;
+			z-index: 1;
+			opacity: 0.90;
+			cursor: pointer;
+			transition: 0.8s;
+		}
+		.cover_5{
+			position: absolute;
+			width: 90.25vw;
+			height: 60.75vw;
+			left: 5.5vw;
+			top: 320vw;
+			background-color: #4F0B14;
+			border-radius: 2.5vw;
+			z-index: 1;
+			opacity: 0.90;
+			cursor: pointer;
+			transition: 0.8s;
+		}
+		.cover_6{
+			position: absolute;
+			width: 90.25vw;
+			height: 60.75vw;
+			left: 5.5vw;
+			top: 387.5vw;
+			background-color: #1E2A3A;
+			border-radius: 2.5vw;
+			z-index: 1;
+			opacity: 0.90;
+			cursor: pointer;
+			transition: 0.8s;
+
+		}
+
+		
+		.box_tag{
+			position: absolute;
+			color: white;
+			font-size: 6.25vw;
+			top: 12.5vw;
+			width: 100%;
+			text-align: center;
+			font-family: Segoe UI Semibold;
+			z-index: 1;
+
+		}
+		.button{
+			position: absolute;
+			width: 26vw;
+			height: 6.5vw;
+			top: 37.5vw;
+			left: 32.5vw;
+			border-radius: 7.5vw;
+			border: 0.5vw solid white;
+			z-index: 1;
+			color: white;
+			cursor: pointer;
+
+		}
+		.button:hover{
+			background-color: white;
+			color: black;
+		}
+		.click_know{
+			position: absolute;
+            font-family: Arial;
+            left: 3.75vw;
+            top: -1.25vw;
+			font-size: 3vw;
+		}
+
+		.arrow_img{
+			position: absolute;
+			width: 1.75vw;
+			left: 20vw;
+			top: 2.75vw;
+			z-index: 1;
+		}
+
+		.footer{
+            position: relative;
+            width: 100vw;
+            height: 178.5vw;
+            background-color: #7510F7;
+            margin-top: 75vw;
+		}
+		.start_project{
+			position: absolute;
+			top: -22.5vw;
+			left: 5vw;
+			background-color: #0E1530;
+			width: 90.25vw;
+			height: 60.75vw;
+			border-radius: 6.25vw;
+		}
+		.start_project_tag{
+			position: absolute;
+			color: white;
+			font-size: 5.5vw;
+			font-family: Arial Bold;
+			top: 2.5vw;
+			width: 100%;
+			text-align: center;
+		}
+		.start_project_text{
+			position: absolute;
+			color: white;
+			font-size: 3.5vw;
+			font-family: Segoe UI;
+			top: 20vw;
+			width: 100%;
+			text-align: center;
+		}
+		.button2{
+			position: absolute;
+			width: 30vw;
+			height: 7.75vw;
+			left: 30vw;
+			top: 42.5vw;
+			border: 0.25vw solid #7510F7;
+			border-radius: 6.25vw;
+			cursor: pointer;
+			color: white;
+		}
+		.button2:hover{
+			background-color: white;
+			color: black;			
+		}
+		.let{
+			position: absolute;
+			
+			font-size: 3vw;
+			font-family: Segoe UI;
+			top: -1vw;
+			left: 6.75vw;
+		}
+		.i_en{
+			position: absolute;
+			color: white;
+			font-size: 5.75vw;
+			font-family: Segoe UI;
+			opacity: 0.8;
+			width: 100%;
+			text-align: center;
+			top: 62.5vw;
+		}
+        .round1{
+        	left: 12.5vw;
+        	}
+        .round2{
+        	left: 25vw;
+        	}
+       
+
+        .round3{
+        	left: 37.5vw;
+        	}
+        .round4{
+        	left: 50vw;
+        	}
+        .round5{
+        	left: 62.5vw;
+        	}
+        .round6{
+        	left: 75vw;
+        	}
+
+        .round1,.round2,.round3,.round4,.round5,.round6{
+        	position: absolute;
+        	width: 10.5vw;
+        	height: 10.5vw;
+        	top: 112.5vw;
+        	border: 0.25vw solid white;
+        	border-radius: 50%;
+        	cursor: pointer;
+        }
+         .round1:hover,.round2:hover,.round3:hover,.round4:hover,.round5:hover,.round6:hover{
+        	background-color: black;
+        }
+        .social_img{
+        	position: absolute;
+        	width: 2.5vw;
+        	left: 4vw;
+        	top: 3vw;
+        	
+        }
+         .round2 img, .round3 img, .round4 img, .round5 img, .round6 img{
+        	
+        	left: 3.2vw;
+        	width: 4vw;
+        }
+        .num{
+           position: absolute;
+           font-family: Arial;
+           font-size: 3.5vw;
+           opacity: 0.95;
+           top: 137.5vw;
+           left: 12.5vw; 
+           color: white;
+        }
+        .mail{
+           position: absolute;
+           font-family: Arial;
+           font-size: 3.75vw;
+           opacity: 0.95;
+           top: 137.5vw;
+           left: 53.25vw;
+           color: white;
+        }
+        .copyright{
+        	 position: absolute;
+           font-family: Arial;
+           font-size: 3vw;
+           opacity: 0.70;
+           top: 150vw;
+           width: 100%;
+           text-align: center;
+           color: white;
+        }
+
+        .form11{
+        	height: 0;margin-bottom: 75vw;position: absolute;top:0;overflow-x: hidden;transition: 0.5s;width: 100vw;text-align: center;background-image: linear-gradient(90deg,red,black);
+        }
+       .form11_div{
+          position: absolute;top: 12.5vw;width: 100vw;text-align: center;height: 100%;
+       }
+       .close_form_btn{
+       	color: red;font-size: 4.5vw;position: absolute;left: 85vw;top: -5vw;font-family: Segoe UI Semibold;background-color: white;border-radius: 50%;height:5.75vw;width: 5.75vw;box-shadow: -0.75vw 0.75vw 0.75vw black;cursor: pointer;
+       }
+       #hd_i_en{
+           top: 20vw;
+		}
+
+		 #hd_num,#hd_mail{
+        	top: 50vw;
+        }
+
+         #hd_round1,#hd_round2,#hd_round3,#hd_round4,#hd_round5,#hd_round6{
+         	
+        	top: 10.041666666666668vw;
+        	
+
+        }
+         #gmail1{
+        	color: white;width: 50vw;height: 5vw;position: relative;left: 42.5vw;top: -77.5vw;text-align: center;background-color: #0E1530;transition: 1s;box-shadow: -0.5vw 0.5vw 0.5vw white;display: none;
+        }
+        #what1{
+             color: white;width: 50vw;height: 5vw;position: relative;left: 25vw;top: -77.5vw;text-align: center;background-color: #0E1530;transition: 1s;box-shadow: -0.5vw 0.5vw 0.5vw white;display: none;
+        }
+          
+          #gmail2{
+        	color: white;width: 50vw;height: 5vw;position: absolute;left: 42.5vw;top: 2.5vw;text-align: center;background-color: #0E1530;transition: 1s;box-shadow: -0.5vw 0.5vw 0.5vw white;display: none;z-index: 1;
+        }
+        #what2{
+           color: white;width: 50vw;height: 5vw;position:absolute;left: 25vw;top: 2.5vw;text-align: center;background-color: #0E1530;transition: 1s;box-shadow: -0.5vw 0.5vw 0.5vw white;display: none;z-index: 1;
+        }
+		}
+
+		
+	</style>
+</head>
+<body >
+	
+
+<!-----1......header group----->
+<div class="head1">
+	<img oncontextmenu="return false" src="media/tri_big_img.svg" alt="tri" class="tri_big">
+	<img oncontextmenu="return false" src="media/tri_small_img.svg" alt="tri" class="tri_small">
+	<div class="contact_me" onclick="show_form()"><p>Contact me</p></div>
+	<p class="heading_big animated bounce" >Website Developer & UI/UX Designer</p>
+	<p class="heading_small">Website Developer<br>&<br>UI/UX Designer</p>
+	<p class="sub_big">I code and design beautifully simple, faster and better. </p>
+	<p class="sub_small">I code and design beautifully simple,<br>faster and better. </p>
+	<img oncontextmenu="return false" src="media/talib_img_big.svg" alt="img" class="talib_img_big" oncontextmenu="return false">
+	<img oncontextmenu="return false" src="media/talib_img_small.png" alt="img" class="talib_img_small">
+	<p class="name">TALIB HUSSAIN</p>
+</div>
+
+<!---------------------------->
+
+
+
+<!-----1......illustration group----->
+
+<div class="ill2">	
+	 <p class="res_txt">I design & develop Responsive websites & UI/UX</p>
+     <img oncontextmenu="return false" src="media/ill.svg" alt="img" class="ill_img">
+</div>
+<!---------------------------->
+
+
+
+<!-----1......introduction group----->
+
+<div class="intro3">
+	<p class="intro_tag">Hi, I'm Talib. Nice to meet you.</p>
+	<p class="intro_text_small">Hello I 'm a full-stack web developer<br>
+		and UI/UX designer, specialised in designing<br>
+		websites both static and dynamic. My projects<br>
+		start with the need of the clients and end<br>
+with their full satisfaction to build trust with<br>
+them. I ensure to give them quality work<br>
+what they expect from me to make their<br>
+time and money worthwhile. I have done<br>
+remote works with many clients and got<br>
+positive feedbacks all the time. </p>
+
+<p class="intro_text_big">Hello I 'm a full-stack web developer and UI/UX designer, specialised in designing websites<br>
+both static and dynamic. My projects start with the need of the clients and end<br>
+with their full satisfaction to build trust with them. I ensure to give them quality work what they <br>
+expect from me to make their time and money <br>worthwhile. I have done remote works with many<br> 
+clients and got positive feedbacks all the time. </p>
+
+<img oncontextmenu="return false" src="media/fast_img.svg" alt="image" class="fast_img">
+</div>
+<!---------------------------->
+
+
+
+<!-----1......skills group----->
+
+<div class="skill4">
+  <div class="developer_group">	
+	<img oncontextmenu="return false" src="media/dev_img.svg" alt="" class="dev_img">
+	<p class="dev_tag">Website Developer</p>
+	<p class="dev_text">I design all types of websites both<br>static and dynmic.</p>
+	<p class="lang_speak_tag">Languages ! speak</p>
+	<p class="lang_speak_text">HTML, CSS, SASS, BOOTSTRAP<br>
+JAVASCRIPT, JQUERY, REACT JS<br>
+DJANGO </p>
+<p class="service_tag">Services</p>
+<p class="service_text">website development<br>
+psd/design to html<br>
+psd/design to react js<br>
+Html templates<br>
+responsive/fluid web pages
+</p>
+	</div>
+
+	<!-----another group-->
+		<div class="div_line"></div>
+
+	<div class="designer_group">	
+	<img oncontextmenu="return false" src="media/des_img.svg" alt="" class="dev_img">
+	<p class="dev_tag">Graphic Designer</p>
+	<p class="dev_text">I design user interfaces of websites,<br>
+apps and more.</p>
+	<p class="lang_speak_tag">Designs ! draw</p>
+	<p class="lang_speak_text">UX,UI, WEB, MOBILE,<br>
+APPS, LANDING PAGES,EMAIL TEMPLATES.</p>
+<p class="service_tag">Services</p>
+<p class="service_text">Design UI/UX of web/mobile/apps<br>
+Design Landing page<br>
+Design Email template
+</p>
+	</div>
+</div>
+<!---------------------------->
+
+
+
+<!-----1......projects group----->
+
+<div class="projects5">
+	<p class="pro_tag">My Recent Work</p>
+	<p class="pro_text">Here are few projects I 've worked on recently</p>
+    <div class="project_box">
+    	
+
+    	
+
+    	<img id="back_img11" oncontextmenu="return false" src="media/back_img.jpg" alt="image" class="back_img1">
+    	<img oncontextmenu="return false" src="media/back_img.jpg" alt="image" class="back_img2">
+    	<img oncontextmenu="return false" src="media/back_img.jpg" alt="image" class="back_img3">
+    	<img oncontextmenu="return false" src="media/back_img.jpg" alt="image" class="back_img4">
+    	<img oncontextmenu="return false" src="media/back_img.jpg" alt="image" class="back_img5">
+    	<img oncontextmenu="return false" src="media/back_img.jpg" alt="image" class="back_img6">
+
+
+
+    	<div class="cover_1" onmouseover="scale_up()" onmouseleave="scale_down()"></div>
+    	<div id="cover11" class="cover_2"></div>
+    	<div class="cover_3"></div>
+    	<div class="cover_4"></div>
+    	<div class="cover_5"></div>
+    	<div class="cover_6"></div>
+         
+         <div id="box11" class="box1">
+    		<p class="box_tag">Skyvex Engineering</p>
+    		<div class="button"><p class="click_know">Know more</p><img oncontextmenu="return false" src="media/arrow.svg" alt="image" class="arrow_img"></div>
+    	</div>
+    	<div class="box2">
+    		<p class="box_tag">Professor Portfolio</p>
+    		<div class="button"><p class="click_know">Know more</p>
+    		<img oncontextmenu="return false" src="media/arrow.svg" alt="image" class="arrow_img"></div>
+    	</div>
+    	<div class="box3">
+    		<p class="box_tag">Knowledge Blog</p>
+    		<div class="button"><p class="click_know">Know more</p>
+    		<img src="media/arrow.svg" alt="image" class="arrow_img"></div>
+    	</div>
+    	<div class="box4">
+    		<p class="box_tag">Flyykart Shopping</p>
+    		<div class="button"><p class="click_know">Know more</p>
+    		<img oncontextmenu="return false" src="media/arrow.svg" alt="image" class="arrow_img"></div>
+    	</div>
+    	<div class="box5">
+    		<p class="box_tag">News Website</p>
+    		<div class="button"><p class="click_know">Know more</p>
+    		<img oncontextmenu="return false" src="media/arrow.svg" alt="image" class="arrow_img"></div>
+    	</div>
+    	<div class="box6">
+    		<p class="box_tag">Dynamic Login</p>
+    		<div class="button"><p class="click_know">Know more</p>
+    		<img oncontextmenu="return false" src="media/arrow.svg" alt="image" class="arrow_img"></div>
+    	</div>
+    </div>
+</div>
+
+<!--see more-->
+<div id="see_more" style="width: 100vw;height: 2vw;display: flex;flex-direction: row-reverse;box-sizing: border-box;">
+	<div style="color: black;padding-right: 11vw;text-decoration: underline;cursor: pointer;"><a href="portfolio_page/portfolio.html">See More &#5434;</a></div>
+</div>
+<!---------------------------->
+
+
+<!--employement history-->
+<div class="why_me" style="width: 90vw;margin-left: 5vw;background-color: grey;height: 300px;border-radius: 1vw;display: flex;color: white;box-shadow: -1vw 1vw 1vw;border: 1px solid black;">
+	<div style="flex: 1;"><h4>demo</h4></div>
+
+	<div style="flex: 1;">
+		<h3 style="font-family: Arial Bold;">You can easily trust me. WHY?</h3>
+		<h4 style="font-family: Arial Bold;">Quality Work</h4>
+		<p style="font-family: Arial;margin-top: -1vw;">I ensure to give my clients quality work to make both of their time and money worthwhile.
+</p>
+<div class="line" style="width: 90%;background-color: white;height: 1px;margin-top: 2vw;"></div>
+<h4 style="font-family: Arial Bold;">Responsive</h4>
+		<p style="font-family: Arial;margin-top: -1vw;">I am very responsive to my clients to make sure to fulfill 100% needs of my clients.
+</p>
+<div class="line" style="width: 90%;background-color: white;height: 1px;margin-top: 2vw;"></div>
+<h4 style="font-family: Arial Bold;">Work On Time</h4>
+		<p style="font-family: Arial;margin-top: -1vw;">I complete my work on time , because I understand the client's time importance.
+</p>
+	</div>
+
+</div>
+
+
+
+
+<!-----1......footer group----->
+<div class="footer">
+	<div class="start_project">
+		<p class="start_project_tag">Start a Project</p>
+		<p class="start_project_text">Interested in working with me?<br>
+we can start a chat.</p>
+<div class="button2"><p class="let">Let's do this</p></div>
+	</div>
+	<p class="i_en">I ensure Quality work to make<br>
+time & money worthwhile.</p>
+
+<a href="https://www.facebook.com/Freelancer-Website-developer-UIUX-designer-103317758100282"><div class="round1"><img oncontextmenu="return false" src="media/facebook4_img.svg" alt="image" class="social_img"></div></a>
+
+<a href="https://www.instagram.com/talibhussain153/">
+<div class="round2"><img oncontextmenu="return false" src="media/instagram2_img.svg" alt="image" class="social_img"></div></a>
+
+<div onclick="show_what1()" class="round3"><img oncontextmenu="return false" src="media/whatsapp_img.svg" alt="image" class="social_img"></div>
+
+<a href="https://www.linkedin.com/in/talib-hussain-b309a71a9"><div class="round4"><img oncontextmenu="return false" src="media/linked_img.svg" alt="image" class="social_img"></div></a>
+
+<a href="https://github.com/Talib111"><div class="round5"><img oncontextmenu="return false" src="media/github_img.svg" alt="image" class="social_img"></div></a>
+
+
+<div onclick="show_gmail1()" class="round6"><img oncontextmenu="return false" src="media/gmail_img.svg" alt="image" class="social_img"></div>
+
+<p class="num">+91 9123254993</p>
+<p class="mail">talibplay111@gmail.com</p>
+<p class="copyright">copyright @ talib hussain </p>
+</div>
+<!---------------------------->
+
+
+
+
+<!----form---------->
+
+<div class="form11" id="form11">
+<div class="form11_div">
+	<!----close form--->
+	<span class="close_form_btn" onclick="close_form()">X</span>
+
+<p id="hd_i_en" class="i_en">I ensure Quality work to make<br>
+time & money worthwhile.</p>
+
+<a  href="https://www.facebook.com/Freelancer-Website-developer-UIUX-designer-103317758100282"><div id="hd_round1" class="round1"><img oncontextmenu="return false" src="media/facebook4_img.svg" alt="image" class="social_img"></div></a>
+
+<a href="https://www.instagram.com/talibhussain153/">
+<div id="hd_round2" class="round2"><img oncontextmenu="return false" src="media/instagram2_img.svg" alt="image" class="social_img"></div></a>
+
+<div id="hd_round3" onclick="show_what2()" class="round3"><img oncontextmenu="return false" src="media/whatsapp_img.svg" alt="image" class="social_img"></div>
+
+<a href="https://www.linkedin.com/in/talib-hussain-b309a71a9"><div id="hd_round4" class="round4"><img oncontextmenu="return false" src="media/linked_img.svg" alt="image" class="social_img"></div></a>
+
+<a href="https://github.com/Talib111"><div id="hd_round5" class="round5"><img oncontextmenu="return false" src="media/github_img.svg" alt="image" class="social_img"></div></a>
+
+
+<div id="hd_round6" onclick="show_gmail2()" class="round6"><img oncontextmenu="return false" src="media/gmail_img.svg" alt="image" class="social_img"></div>
+
+<p id="hd_num" class="num">+91 9123254993</p>
+<p id="hd_mail" class="mail">talibplay111@gmail.com</p>
+
+
+
+<!---gmail popup---->
+<span id="gmail2">talibplay111@gmail.com</span>
+
+<!---whatsapp popup---->
+<span id="what2">+91 9123254993</span>
+
+
+
+
+</div>
+</div>
+
+
+<!---gmail popup---->
+<span id="gmail1">talibplay111@gmail.com</span>
+
+<!---whatsapp popup---->
+<span id="what1">+91 9123254993</span>
+
+
+
+
+
+<script>
+	function show_form(){
+		document.getElementById('form11').style.height='370px';
+	}
+
+	function close_form(){
+		document.getElementById('form11').style.height='0px';
+	}
+
+	function show_gmail1(){
+		var gmail_bl= document.getElementById('gmail1');
+		gmail_bl.style.display='block';
+		
+		setTimeout(hide_gmail1,5000);
+	}
+	function hide_gmail1(){
+		document.getElementById('gmail1').style.display='none';
+		//document.getElementById('gmail1').style.display='block';
+	}
+
+	function show_what1(){
+		var what_bl= document.getElementById('what1');
+		what_bl.style.display='block';
+		
+		setTimeout(hide_what1,5000);
+	}
+	function hide_what1(){
+		document.getElementById('what1').style.display='none';
+		//document.getElementById('gmail1').style.display='block';
+	}
+	function show_gmail2(){
+		var gmail_bl= document.getElementById('gmail2');
+		gmail_bl.style.display='block';
+		
+		setTimeout(hide_gmail2,5000);
+	}
+	function hide_gmail2(){
+		document.getElementById('gmail2').style.display='none';
+		//document.getElementById('gmail1').style.display='block';
+	}
+
+	function show_what2(){
+		var what_bl= document.getElementById('what2');
+		what_bl.style.display='block';
+		
+		setTimeout(hide_what2,5000);
+	}
+	function hide_what2(){
+		document.getElementById('what2').style.display='none';
+		//document.getElementById('gmail1').style.display='block';
+	}
+</script>
+
+
+
+
+
+<!----analytics------>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.15.2/firebase-analytics.js"></script>
+
+<script>
+
+	
+
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAh57RHKqWCF2e_qmCVq-w9vfuQjGg_i9U",
+    authDomain: "talib1.firebaseapp.com",
+    databaseURL: "https://talib1.firebaseio.com",
+    projectId: "talib1",
+    storageBucket: "talib1.appspot.com",
+    messagingSenderId: "1058636080733",
+    appId: "1:1058636080733:web:a7f36fb6265f5857078fb4",
+    measurementId: "G-DVZS03K75R"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+</body>
+</html>
